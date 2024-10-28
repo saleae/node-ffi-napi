@@ -1,5 +1,6 @@
 #define NAPI_VERSION 6
 #define NAPI_EXPERIMENTAL /* Until Node.js v12.17.0 is released */
+#define NODE_API_EXPERIMENTAL_NOGC_ENV_OPT_OUT /* https://github.com/nodejs/node/issues/52229#issuecomment-2040131493 */
 #include "ffi.h"
 #include "fficonfig.h"
 #include <get-uv-event-loop-napi.h>
